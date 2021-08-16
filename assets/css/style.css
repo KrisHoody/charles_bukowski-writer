@@ -10,6 +10,8 @@
 
 body {
     font-family: syne mono, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #logo {
@@ -46,10 +48,11 @@ body {
 
 nav {
     text-align: left;
+    display: inline;
 }
 
 a {
-    color: rgb(198, 198, 206);
+    color: black;
     font-weight: 900;
     text-decoration: none;
 }
@@ -58,11 +61,28 @@ footer {
     height: 150px;
 }
 
-
 .useful_links {
+    padding: 25%;
+    margin: 0 auto;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    
+}
+
+.useful_links > li {
+    display: inline;
+    font-size: 25px;
+    
 
 }
 
 div {
     width: 100%;
+}
+
+.useful_links > li > a {
+    color: blanchedalmond;
+
 }
