@@ -22,7 +22,10 @@
             <nav>
                 <ul id="menu">
                   <li>
-                    <a href="biography">Biography</a>
+                    <a href="biography.html">Biography</a>
+                  </li>
+                  <li>
+                    <a href="books_poems.html">Books and poems </a>
                   </li>
                   <li>
                     <a href="gallery.html">Gallery</a>
@@ -43,6 +46,7 @@
                 <a href="https://bukowski.net/" aria-label="Visit Charles Bukowski website"
                     target="_blank">bukowski.net</a>
             </li>
+            
             <li>
                 <a href="https://www.instagram.com/charlesbukowskiquotes/"
                     aria-label="Visit Instagram with Charles Bukowski Quotes" target="_blank">Instagram</a>
@@ -52,3 +56,4 @@
 </body>
 
 </html>
+
