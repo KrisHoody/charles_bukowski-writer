@@ -9,17 +9,14 @@
 
 body {
     font-family: syne mono, sans-serif;
-    margin: 0;
-    padding: 0;
     position: absolute;
     width: 100%;
-    background-size: cover;
-    position: relative;
     margin: 0px;
     padding: 0;
-    border: none;
-    background-image: url(../images/charles2.jpg);
+    border: 0;
+    background-image: url(../images/bukbench.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 500px;
 }
 

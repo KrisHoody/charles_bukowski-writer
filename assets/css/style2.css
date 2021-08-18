@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: syne mono;
+    font-weight: 600;
+    color: black;
+}
+
+#logo {
+    float: left;
+    margin-left: 30px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+h1, a {
+    color:honeydew;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid black;
+}
+
+.active {
+    border-bottom: 3px solid black;
+}
+
+#hero-image {
+    height: 450px;
+    width: 100%;
+    background: url(../images/Charles-Bukowskiff.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2, p {
+    padding: 40px;
+    text-align: justify;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+footer {
+    background-color: black;
+}
