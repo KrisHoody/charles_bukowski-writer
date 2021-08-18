@@ -34,11 +34,11 @@ a {
     text-decoration: none;
 }
 #menu a:hover {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 .active {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 #hero-image {
@@ -62,18 +62,40 @@ h2 {
     font-size: 30px;
 }
 
+#external-links {
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
 footer {
     background-color: black;
-    height: 150px;
+    height: 100px;
 }
 
 
 #useful-links {
     text-align: center;
+    color: blanchedalmond;
 }
 
 #useful-links > li {
     display: inline;
     font-size: 30px;
+    margin: 1px;
+    column-gap: 0;
     
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
