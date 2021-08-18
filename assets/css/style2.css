@@ -24,11 +24,15 @@ body {
     font-size: 30px;
 }
 
-h1, a {
+h1 {
     color:honeydew;
     text-decoration: none;
 }
 
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
 #menu a:hover {
     border-bottom: 3px solid black;
 }
@@ -60,4 +64,16 @@ h2 {
 
 footer {
     background-color: black;
+    height: 150px;
+}
+
+
+#useful-links {
+    text-align: center;
+}
+
+#useful-links > li {
+    display: inline;
+    font-size: 30px;
+    
 }
