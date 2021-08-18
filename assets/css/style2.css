@@ -100,8 +100,6 @@ footer {
 #photos > img {
     width: 100%;
     column-gap: 0;
-    border: 2px;
-    margin: 2px;
 }
 /*medium screen*/
 
@@ -122,3 +120,18 @@ footer {
 
 /*large screen*/
 
+
+li > a {
+    text-decoration: ;
+}
+
+/*form*/
+
+#form {
+    font-size: large;
+    display: inline;
+}
+
+#email-form {
+    display: inlin;
+}
