@@ -102,13 +102,17 @@ footer {
     width: 100%;
     column-gap: 0;
 }
+
 /*medium screen*/
 
 @media screen and (max-width:950px) {
     #hero-image {
         width: 100%;
     }
-    
+    #photos {
+        column-count: 2;
+    }
+
 }
 
 /*small screen*/
@@ -122,10 +126,16 @@ footer {
         width: 100%;
     }
 
+    #menu > li {
+        clear: both;
+        float: left;
+        
+        
+    
+    }
+
     
 }
-
-/*large screen*/
 
 
 /*form*/
