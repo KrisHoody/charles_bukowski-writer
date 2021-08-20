@@ -118,9 +118,9 @@ footer {
     list-style-type: inherit;
 }
 
-/*medium screen*/
+/*large screen*/
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1250px) {
     #hero-image {
         width: 100%;
         background-size: cover;
@@ -138,27 +138,30 @@ footer {
     }
 }
 
-@media screen and (max-width )
 
-/*small screen*/
 
-@media screen and (max-width: 800px) {
+/*medium screen*/
+
+@media screen and (max-width: 760px) {
     #photos {
         column-count: 1;
 
     }
 
     #hero-image {
-        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat; 
+    
     }
 
     #menu > li {
         clear: both;
         float: right;
-        
+        margin-top: 20px;
+        padding-bottom: 5px;
     }
 
-    
+
 }
 
 
@@ -187,4 +190,9 @@ input:hover {
     margin: 5%;
     padding: 1px;
     
+}
+
+#gallery {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
