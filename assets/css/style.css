@@ -57,7 +57,6 @@ h2, p {
 p {
     font-size: 20px;
     margin: 5px;
-    text-indent: 40px;
 }
 
 div > h2 {
@@ -92,7 +91,7 @@ footer {
     margin: 1px;
     column-gap: 0;  
     height: 10px;
-   
+
 }
 
 /* gallery */
@@ -102,11 +101,7 @@ footer {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    
-}
 
-#text {
-    text-indent: initial;
 }
 
 #photos > img {
@@ -122,18 +117,19 @@ input:hover {
     background-color: grey;
 }
 
+
+
+section > div > h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/*form*/
+
 #form {
     margin: 5%;
     padding: 1px;  
 }
-
-#gallery {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-
-}
-
-/*form*/
 
 input  {
     width: auto;
@@ -146,6 +142,11 @@ input  {
     text-align: center;
     margin-left: 18px; 
 }
+
+input:hover {
+    background-color: grey;
+}
+
 
 
 /*large screen*/
@@ -196,13 +197,10 @@ input  {
 
     #gallery {
         margin: 0px;
-        
-
     }
     .size {
         font-size: 10px;
     }
-
 
     input {
        width: auto;
