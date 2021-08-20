@@ -163,7 +163,7 @@ footer {
 /*small screen*/
 
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px wide and down) {
 
     #menu > li {
         float: right;
