@@ -200,6 +200,12 @@ input  {
     .size {
         font-size: 10px;
     }
-   
+   #useful-links {
+       clear: both;
+   }
+
+   input {
+       width: 40%;
+   }
 
 }
