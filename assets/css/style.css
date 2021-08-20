@@ -17,10 +17,10 @@ body {
     margin-left: 30px;
 }
 
-#menu li {
+#menu > li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
     font-size: 30px;
 }
 
@@ -130,10 +130,11 @@ footer {
     }
 
     #menu > li {
-        clear: right;
+        clear: both;
         float: right;
-        margin-left: 40px;
-        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+
         
     }
 }
@@ -151,14 +152,11 @@ footer {
     #hero-image {
         background-position: center center;
         background-repeat: no-repeat; 
+        background-size: cover;
     
     }
 
-    #menu > li {
-        clear: both;
-        float: right;
-        margin-top: 20px;
-        padding-bottom: 5px;
+    
     }
 /*small screen*/
 
@@ -167,8 +165,8 @@ footer {
 
     #menu > li {
         float: right;
-        clear: right;
-        margin: auto;
+        clear: both;
+        margin: 40px;
     }
 }
 
