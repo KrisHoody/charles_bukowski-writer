@@ -87,10 +87,12 @@ footer {
 }
 
 #useful-links > li {
-    display: inline;
+    display: inline-flex;
     font-size: 30px;
     margin: 1px;
     column-gap: 0;  
+    height: 10px;
+    width:-webkit-fill-available;
 }
 
 /* gallery */
@@ -134,7 +136,7 @@ input:hover {
 /*form*/
 
 input  {
-    width: 15%;
+    width: auto;
     border: 2px solid black;
     
     padding: 4px;
@@ -200,11 +202,9 @@ input  {
     .size {
         font-size: 10px;
     }
-   #useful-links > li {
-       display: inline-block;
-   }
 
-   input {
+
+    input {
        width: auto;
    }
 
