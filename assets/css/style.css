@@ -167,6 +167,7 @@ footer {
 
     #menu > li {
         float: right;
+        clear: right;
     }
 }
 
