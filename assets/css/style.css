@@ -87,12 +87,12 @@ footer {
 }
 
 #useful-links > li {
-    display: inline;
+    display: inline-flex;
     font-size: 30px;
     margin: 1px;
     column-gap: 0;  
     height: 10px;
-    width:-webkit-fill-available;
+   
 }
 
 /* gallery */
@@ -208,7 +208,5 @@ input  {
        width: auto;
    }
 
-   #useful-links > li {
-    display: inline-flex;
-   }
+
 }
