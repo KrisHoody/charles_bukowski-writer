@@ -52,10 +52,17 @@ a {
 h2, p {
     padding: 20px;
     text-align: justify;
+    
 }
 
 p {
     font-size: 20px;
+    margin: 40px;
+    text-indent: 40px;
+}
+
+div > h2 {
+    text-align: center;
 }
 
 h2 {
@@ -98,9 +105,17 @@ footer {
     
 }
 
+#text {
+    text-indent: initial;
+}
+
 #photos > img {
     width: 100%;
     column-gap: 0;
+}
+
+#media-list {
+    list-style-type: inherit;
 }
 
 /*medium screen*/
@@ -108,30 +123,43 @@ footer {
 @media screen and (max-width:950px) {
     #hero-image {
         width: 100%;
+        background-size: cover;
     }
     #photos {
         column-count: 2;
     }
 
+    #menu > li {
+        clear: right;
+        float: right;
+        margin-left: 40px;
+        margin-bottom: 0px;
+        
+    }
 }
+
+@media screen and (max-width )
 
 /*small screen*/
 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 1;
+
     }
 
     #hero-image {
         width: 100%;
     }
 
+    #hero-image {
+
+    }
+
     #menu > li {
-        clear: both;
-        float: left;
+        clear: right;
+        float: right;
         
-        
-    
     }
 
     
