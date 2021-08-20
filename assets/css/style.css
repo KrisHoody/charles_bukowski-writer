@@ -202,10 +202,11 @@ input  {
     }
    #useful-links {
        clear: both;
+       float: initial;
    }
 
    input {
-       width: 40%;
+       width: auto;
    }
 
 }
