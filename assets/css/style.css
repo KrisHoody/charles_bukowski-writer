@@ -87,7 +87,7 @@ footer {
 }
 
 #useful-links > li {
-    display: inline-flex;
+    display: inline;
     font-size: 30px;
     margin: 1px;
     column-gap: 0;  
@@ -208,4 +208,7 @@ input  {
        width: auto;
    }
 
+   #useful-links > li {
+    display: inline-flex;
+   }
 }
