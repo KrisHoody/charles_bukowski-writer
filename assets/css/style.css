@@ -152,12 +152,8 @@ footer {
         width: 100%;
     }
 
-    #hero-image {
-
-    }
-
     #menu > li {
-        clear: right;
+        clear: both;
         float: right;
         
     }
