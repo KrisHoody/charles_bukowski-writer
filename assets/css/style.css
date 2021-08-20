@@ -200,9 +200,8 @@ input  {
     .size {
         font-size: 10px;
     }
-   #useful-links {
-       clear: both;
-       float: initial;
+   #useful-links > li {
+       display: inline-block;
    }
 
    input {
